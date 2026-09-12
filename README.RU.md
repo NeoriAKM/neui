@@ -5,7 +5,7 @@
 
 **Не имеет зависимостей**. Кроме как `Python 3.4` и новее. **Используемые модули** - `os, time`
 
-**Примеры кода** - [game.py](1) , [game2.py](2) , [game3.py](3)
+**Примеры кода** - [examples/game.py](1) , [examples/game2.py](2) , [examples/game3.py](3)
 
 **Документация** - [documentation.txt](documentation.txt)
 

@@ -5,7 +5,7 @@
 
 **Has no requirements**. Only `Python 3.4+`. **Using modules** - `os, time`
 
-**Code examples** - [game.py](1) , [game2.py](2) , [game3.py](3)
+**Code examples** - [examples/game.py](1) , [examples/game2.py](2) , [examples/game3.py](3)
 
 **Documentation** - [documentation.txt](documentation.txt)
 

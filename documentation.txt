@@ -1,6 +1,5 @@
 DOCUMENTATION NeUI (Not User Interface)
 
-
 1. How to begin?
 
 Begin with importing neui
