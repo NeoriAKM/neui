@@ -1,14 +1,15 @@
-# NeUI - графика в терминале
+[Русский README](README.RU.md)
+# NeUI - graphics in console
 
-### Наипростейший фреймворк для создания интерфейса в терминале.
+### The easiest framework for making interface in console
 
-**Не имеет зависимостей**. Кроме как `Python 3.4` и новее. **Используемые модули** - `os, time, random`
+**Has no requirements**. Only `Python 3.4+`. **Using modules** - `os, time`
 
-**Примеры кода** - [game.py](1) , [game2.py](2) , [game3.py](3)
+**Code examples** - [game.py](1) , [game2.py](2) , [game3.py](3)
 
-**Документация** - [documentation.txt](documentation.txt)
+**Documentation** - [documentation.txt](documentation.txt)
 
-## Картинки
+## images
 ![](img/work1.png)
 
 ![](img/work2.png)
@@ -16,4 +17,3 @@
 ![](img/work3.png)
 
 ![](img/work4.png)
-
