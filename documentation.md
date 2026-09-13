@@ -54,7 +54,7 @@ In the while run you will need add `root.update_ui`, **about him described in 3 
 - 3 - ID (but for what?)
 
 ### 3.2 `root.update_ui(content, id)`
-**content** - place thats you need update. If content has var x, type `root.update(x, {id})`.
+**content** - place thats you need update. If content has var x, type `root.update_ui(x, {id})`.
 
 ### 3.3 `root.isempty(x, y)`
 **returns True** if cell x,y occupied, and **False** if non-occupied.
