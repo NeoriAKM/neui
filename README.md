@@ -7,7 +7,7 @@
 
 **Code examples** - [examples/game.py](1) , [examples/game2.py](2) , [examples/game3.py](3)
 
-**Documentation** - [documentation.txt](documentation.txt)
+**Documentation** - [documentation.md](documentation.md)
 
 ## images
 ![](img/work1.png)

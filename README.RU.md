@@ -7,7 +7,7 @@
 
 **Примеры кода** - [examples/game.py](1) , [examples/game2.py](2) , [examples/game3.py](3)
 
-**Документация** - [documentation.txt](documentation.txt)
+**Документация** - [documentation.ru.md](documentation.ru.md)
 
 ## Картинки
 ![](img/work1.png)
