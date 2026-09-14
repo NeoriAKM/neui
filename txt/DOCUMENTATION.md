@@ -59,8 +59,14 @@ In the while run you will need add `root.update_ui`, **about him described in 3 
 ### 3.3 `root.isempty(x, y)`
 **returns True** if cell x,y occupied, and **False** if non-occupied.
 
-### 3.4 root.endsession()
+### 3.4 `root.endsession()`
 Ending session. optionally you can type end msg, be like `root.endsession("Bye bye!")`
+
+### 3.5 `root.remove_all_ui()`
+Cleaning ALL UI thats you added with `root.add_ui()`
+
+### 3.6 `root.newtactdelay(new)`
+Updating tact delay. Its a delay beetwen frame. Writing in ms. Be like `100` its 0.1 sec beetwen a frame
 
 
 ## 4. Variables

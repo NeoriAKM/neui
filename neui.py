@@ -1,7 +1,9 @@
-# NeUI Beta 0.1
+# NeUI Beta 0.1.1
 import os, time, sys
 
-def clear(): print("\033[H\033[2J", end="")
+def clear():
+    sys.stdout.write("\033[H\033[2J")
+    sys.stdout.flush()
 def movetostart(): print("\033[H", end="")
 
 class Draw:
@@ -75,7 +77,7 @@ class Draw:
         del self.pos[self.find_index_by_id(id)]
 
     def add_ui(self, pos):
-        """(left_or_right_0_or_1, y, content)"""
+        """(left_or_right_0_or_1, y, content, UI_ID)"""
         lr, y, content, id = pos
 
         if self.find_index_by_id(id, 1) != -1: raise IndexError("this UI ID is taken")
@@ -107,7 +109,17 @@ class Draw:
             if x == xt and y == yt: return True
         return False
     
+    def remove_all_ui(self):
+        self.ui = []
+    
     def endsession(self, msg=''):
         clear()
         print(msg)
         sys.exit()
+    
+    def newtactdelay(self, new):
+        """
+        New delay beetwen frames.
+        Type value in miliseconds
+        """
+        self.tact = new // 1000
